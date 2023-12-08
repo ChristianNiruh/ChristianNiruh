@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+
+nav {
+  background-color: rgb(21, 138, 192); 
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black; /* Black */
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgb(150, 115, 89); /* Darker Orange on Hover */
+}
+
+h1 {
+  color: #03cafc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(255, 66, 208); /* Orange */
+  color: black; /* Black */
+}
+
+.Message {
+  background-color: #FF4500; /* Red-Orange */
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  margin-top: 10px;
+  color: #2c3e50;
+  display: block;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #333; /* Darker Border */
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(255, 150, 13); 
+  color: black; 
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(68, 159, 208); 
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
